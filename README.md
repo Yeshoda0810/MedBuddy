@@ -1,82 +1,60 @@
-# MEDBUDDY
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-![MIT](https://img.shields.io/github/license/Aman-Codes/MedBuddy?color=blue)
+# 🏥 MedBuddy – Doctor Appointment System
 
+MedBuddy is a full-stack healthcare web application that allows patients to book appointments, doctors to manage schedules, and ambulance services to register and assist users.
 
-MedBuddy is a website that connects doctors, patients, and ambulance providers. Patients can select a date and doctor to consult, and the system will automatically generate an appointment time based on the doctor's schedule. Patients can also view their current and past appointments and book ambulance services. Doctors can accept or reject appointments, view all their current and past appointments, and upload detailed prescriptions for patients.
+---
 
-## Visit Online
+## 🚀 Features
 
-This website is hosted at [https://medbuddy.onrender.com/](https://medbuddy.onrender.com/)
+- 👤 Patient registration & login  
+- 🩺 Doctor registration & management  
+- 🚑 Ambulance service registration  
+- 📅 Appointment booking system  
+- 🔐 Authentication using Passport.js  
+- 🗄️ MongoDB database integration  
+- 🌐 Fully deployed backend  
 
-## Getting Started
+---
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+## 🛠️ Tech Stack
 
-### Prerequisites
+- Node.js  
+- Express.js  
+- MongoDB Atlas  
+- Mongoose  
+- Passport.js  
+- EJS (Embedded JavaScript Templates)  
+- Bootstrap  
 
-Your machine should have Npm(or Yarn), Node.js, and MongoDB installed to use it locally.
+---
 
-## Setup and Installation
+## ⚙️ Setup Instructions
 
-### Setting up the repository locally
-
-1. First fork the repo :fork_and_knife: to your account.  
-   Go to the forked repo and clone it :busts_in_silhouette: to your local machine:
-
-```sh
-git clone https://github.com/Your_Username/MedBuddy.git
-```
-
-This will make a copy of the code to your local machine.
-
-2. Now move to the `MedBuddy` directory.
-
-```sh
-cd MedBuddy
-```
-
-3. Now check the remote of your local code by:
-
-```sh
-git remote -v
-```
-
-The response should look like:
-
-```sh
-origin	https://github.com/Your_Username/MedBuddy.git (fetch)
-origin	https://github.com/Your_Username/MedBuddy.git (push)
-```
-
-To add upstream to remote, run:
-
-```sh
-git remote add upstream https://github.com/Aman-Codes/MedBuddy.git
-```
-
-Again run `git remote -v`, the response should look like:
-
-```sh
-origin	https://github.com/Your_Username/MedBuddy.git (fetch)
-origin	https://github.com/Your_Username/MedBuddy.git (push)
-upstream	https://github.com/Aman-Codes/MedBuddy (fetch)
-upstream	https://github.com/Aman-Codes/MedBuddy (push)
-```
-
-4. Once the remote is set, install all the necessary dependencies by the following command:
-
-```sh
+1. Clone the repository  
+```bash
+git clone https://github.com/Yeshoda0810/MedBuddy.git
+Install dependencies
 npm install
-```
-### Run locally
+Create a .env file and add:
+MONGODB_URL_DEVELOPMENT=your_local_db_url
+MONGODB_URL_PRODUCTION=your_mongodb_atlas_url
+Run the application
+node server.js
+Open in browser
+http://localhost:4000
+🌐 Live Demo
 
-Run the below command to start the server:
+👉 https://medbuddy-77xr.onrender.com
 
-```sh
-npm run dev
-```
-Go to: [http://localhost:4000](http://localhost:4000)
+📸 Screenshots
 
+(Add screenshots here if needed)
 
+🙋‍♀️ Author
 
+Yeshoda
+GitHub: https://github.com/Yeshoda0810
+
+⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
